@@ -19,7 +19,7 @@ class StudentAdapter(
 
         var tempRow = convertView
         if(tempRow ==null) {
-            tempRow = mInflater.inflate(R.layout.student_list_item), null)
+            tempRow = mInflater.inflate(R.layout.student_list_item),null)
         }
 
         val row = tempRow!!
